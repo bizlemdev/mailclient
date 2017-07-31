@@ -1,0 +1,185 @@
+body{font-family:Open Sans,Arial;font-weight:300;color:#686e71}
+.btn{border-radius:0}
+.btn.btn-primary{background-color:#45BDDC;border-color:#30b5d8}
+a:hover,a:focus,a:active{text-decoration:none}
+*{outline:0}
+#email-body{}
+#e-menu{width:60px;float:left;background: #2196f3;height:100vh;text-align:center;}
+#e-menu > ul{margin:0;padding:0}
+#e-menu > ul > li{border-bottom: 1px solid #42a6f5;}
+#e-menu > ul > li.e-labels{}
+#e-menu > ul > li.e-labels .e-label{line-height:normal;padding:2px;border:2px solid #fff;width:15px;height:15px;display:inline-block;margin:0 8px 6px;border-radius:50%}
+#e-menu > ul > li.e-labels .e-label.red{background:red}
+#e-menu > ul > li.e-labels .e-label.blue{background:#1672e8}
+#e-menu > ul > li.e-labels .e-label.orange{background:#e08c0a}
+#e-menu > ul > li.e-labels .e-label.violet{background:#8c48e2}
+#e-menu > ul > li > a{color:#fff;font-size:16px;display:block;line-height:44px}
+#e-menu > ul > li.active > a{background-color: #2682cc;}
+#e-menu > ul > li > a > span.glyphicon{}
+#e-menu > ul > li > ul{}
+#e-menu > ul > li > ul > li{}
+#e-menu > ul > li > ul > li > a{}
+#email-body #e-menu #primary-menu{}
+#email-body #e-menu #secondary-menu{}
+#e-email-box{margin-left:60px;height:100vh}
+#e-topbar{height:50px;border-bottom:1px solid #eee}
+#e-topbar .btn.btn-newemail{float:right;margin:0;height:50px;width:120px;border:0;font-size:16px;font-weight:700}
+#e-topbar h2.pagetitle{margin:0;display:inline-block}
+#e-topbar ul.e-mail-actions{padding:0;margin:0 20px;display:block;float:left}
+#e-topbar ul.e-mail-actions > li{display:inline-block}
+#e-topbar ul.e-mail-actions > li > a{display:inline-block;line-height:50px;width:50px;font-size:18px;text-align:center;color:#7b7b7b}
+#e-topbar ul.e-mail-actions > li.open > a{background-color:#eee}
+#e-topbar ul.e-mail-actions li a span.glyphicon{}
+#e-topbar ul.e-mail-actions ul.dropdown-menu{right:0;left:auto;text-align:right;border-radius:0;border-color:#e4e8e8;box-shadow:0 0;margin-top: -1px;}
+#e-topbar #mail-search{display:block;border:1px solid #f7f7f7;width:50%;margin:7px 10px 0 0;position:relative;float:right}
+#e-topbar #mail-search .form-control{width:100%;border:0;box-shadow:0 0}
+#e-topbar #mail-search .btn-search{position:absolute;top:0;background:#f9f9f9;right:0;color:#aaa}
+#e-mail-body{}
+#e-mail-body #e-mail-summary{width:300px;float:left;height:100vh;overflow:auto;background:#f2f5f7}
+#e-mail-body #e-mail-summary .mail-sorting{padding:14px 15px 0 15px;border-bottom:1px solid #eaedef;font-size:12px;color:#545454;height:50px;background:rgba(253,254,254,0.73)}
+#e-mail-body #e-mail-summary .mail-sorting ul.dropdown-menu{right:0;left:auto;text-align:right;border-radius:0;border-color:#e4e8e8;box-shadow:0 0}
+#e-mail-body #e-mail-summary .mail-sorting ul.dropdown-menu li{}
+#e-mail-body #e-mail-summary .mail-sorting ul.dropdown-menu li a{}
+#e-mail-body #e-mail-summary .mail-sorting .pagetitle{margin:0;font-size:21px;font-weight:300}
+#e-mail-body #e-mail-summary .mail-sorting a.dropdownmenu{font-size:15px;color:#333;float:right}
+#e-mail-body #e-mail-summary .mail-sorting a.dropdownmenu .glyphicon{font-size:10px}
+#e-mail-body #e-mail-summary ul{padding:0;margin:0}
+#e-mail-body #e-mail-summary ul li{padding:0;margin:0;list-style:none;border-bottom: 1px solid #e3e8ea;position: relative;}
+#e-mail-body #e-mail-summary ul li a{display:block;padding:10px 15px;color:#333;font-size:14px;}
+#e-mail-body #e-mail-summary ul li.active a{background:rgba(255,255,255,0.87)}
+#e-mail-body #e-mail-summary ul li span.received-date{float:right;display:block;clear:none;color:#aaa;font-size:11px}
+#e-mail-body #e-mail-summary ul li span.sender-name{display:block;margin-right:40px;font-weight:700}
+#e-mail-body #e-mail-summary ul li span.sender-subject{display:block;height:20px;text-overflow:ellipsis;overflow:hidden;word-spacing:normal;white-space:pre;font-weight:400}
+#e-mail-body #e-mail-summary ul li span.sender-msg-excerpt{display:block;height:36px;overflow:hidden;text-overflow:ellipsis;color:#888;font-size:12px}
+#e-mail-body #e-mail-summary ul li .mail-quick-labeling{display: none;width: 100%;margin: 0;padding: 0;position: absolute;border: 0;bottom: 0;border-top: 1px solid #e3e8ea;background: white;}
+#e-mail-body #e-mail-summary ul li.active .mail-quick-labeling{display: block;background: #fff2b1;}
+#e-mail-body #e-mail-summary ul li .mail-quick-labeling .btn{
+    width: 33.3%;
+    padding: 0;
+    font-size: 11px;
+    height: 25px;
+    border: 0;
+    background: transparent;
+    text-transform: uppercase;
+    color: #968739;
+}
+#e-mail-body #e-mail-summary ul li.active .mail-quick-labeling .glyphicon{}
+#e-mail-body #e-mail-main{margin-left:300px}
+.indiv-email{padding:20px 40px;height:calc(100vh - 60px);overflow:auto;font-weight:400}
+.indiv-email .email-subject{font-size:24px;margin:0}
+.indiv-email .email-thread{border-bottom:1px solid  #eee;padding:20px 0}
+.indiv-email .email-sender:after{content:'';display:block;clear:both}
+.indiv-email .email-sender .received-stamp{float:right;display:block;background-repeat:no-repeat;padding-left:35px;background-position:0 50%;height:20px}
+.indiv-email .email-thread.delievered .received-stamp{background-image:url(../images/mail-delivered.png)}
+.indiv-email .email-thread.not-delievered .received-stamp{background-image:url(../images/mail-not-delivered.png)}
+.indiv-email .email-thread.seen .received-stamp{background-image:url(../images/mail-seen.png)}
+.indiv-email .email-thread.spam .received-stamp{background-image:url(../images/mail-spam.png)}
+.indiv-email .email-sender .thumb{float:left;border-radius:50%;width:48px;height:48px}
+.indiv-email .email-sender .email-names-pull{margin-left:60px}
+.indiv-email .email-sender .name{font-size:18px;color: #2682cc;}
+.indiv-email .email-sender .email-receiver{}
+.indiv-email .email-sender .email-receiver span{}
+.indiv-email .email-sender .email-receiver span.email-to{}
+.indiv-email .email-sender .email-receiver span.email-cc,.indiv-email .email-sender .email-receiver span.email-bcc{color:#9e9e9e}
+.indiv-email .email-content{clear:both;padding:20px 0 0 60px}
+.indiv-email .email-content p{}
+.indiv-email .email-reply{padding-left:0;margin-top: -3px;}
+.indiv-email .email-reply textarea{width:100%;padding:10px;border:1px solid #eee}
+.indiv-email .email-reply .attach-file{height:34px;width:34px;position:relative}
+.indiv-email .email-reply .attach-file .glyphicon{position:absolute;top:9px;left:10px;color:#888}
+.indiv-email .email-reply .btn-primary{font-weight:700}
+.indiv-email .email-reply .btn-primary span.glyphicon{margin-right:4px;}
+
+.email-reply{}
+.email-reply .send-actions{float:right;position:relative;z-index: 1;}
+.email-reply .send-actions .dropdown{display:inline-block}
+.email-reply .send-actions .dropdown ul.dropdown-menu{
+    bottom: 52px;
+    top: auto;
+    border-radius: 0;
+    box-shadow: 0 0;
+    width: 487px;
+    padding: 0 0 0 3px;
+    left: -94px;
+}
+.email-reply .send-actions .dropdown ul.dropdown-menu li{
+    float: left;
+}
+.email-reply .send-actions .dropdown ul.dropdown-menu li a{
+    padding: 4px 3px;
+    background: transparent;
+}
+.email-reply .send-actions .btn{height:30px;padding: 0 10px;font-size: 13px;}
+.email-reply .sening-recips{
+    padding: 5px 0;
+}
+.email-reply .sening-recips:after,.email-reply .sening-recips .receip-address:after{content:'';clear:both;display:block}
+.email-reply .sening-recips .receip-address{
+    border-top: 1px solid #f4f4f4;
+}
+.email-reply .sening-recips .receip-address .address-lbl{
+    float: left;
+    width: 70px;
+    text-align: right;
+    padding: 7px 10px 0 0;
+}
+.email-reply .sening-recips .receip-address .address-pull{
+    margin-left: 75px;
+}
+.email-reply .sening-recips .receip-address .address-pull .emailaddress{
+    width: 100%;
+    border: 0;
+    padding: 7px;
+    color: #333;
+}
+.newtemplate-modal.modal{}
+.newtemplate-modal.modal .modal-footer{}
+.newtemplate-modal.modal .modal-header{border:0;/* padding-bottom: 0; */}
+.newtemplate-modal.modal .modal-dialog{width: 900px;}
+.newtemplate-modal.modal .modal-content{box-shadow:0 0;border-radius:0}
+.newtemplate-modal.modal .modal-body{padding: 0 10px 10px;}
+
+.regular-page{height:100vh;overflow:auto;padding: 25px;}
+.regular-page h1.page-title{margin: 0 0 30px;font-weight: 300;}
+
+.fields-add-repeat{
+    max-width: 600px;
+    padding-top: 20px;
+}
+.fields-add-repeat .domain-label{
+    width: 130px;
+    float: left;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.fields-add-repeat .domain-values{
+    margin-left: 140px;
+}
+.fields-add-repeat .domain-values .input-group{
+    margin-bottom: 15px;
+}
+.fields-add-repeat .domain-values .input-group .form-control{
+    border-radius: 0;
+    box-shadow: 0 0;
+}
+.fields-add-repeat .domain-values .btn.btn-default{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+form.repeater{margin-bottom: 30px;}
+.regular-page .btn-pane{
+    padding: 20px;
+    background: #eee;
+    margin-top: 20px;
+}
+.regular-page .btn-pane .btn{
+    border-radius: 2px;
+    padding: 13px 28px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.regular-page .nav-tabs>li>a{border-radius:0}
+
+form.project-list-form {}
+form.project-list-form .domain-label{}
+form.project-list-form .domain-values .btn.btn-danger{margin-left:10px;}

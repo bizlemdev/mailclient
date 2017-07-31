@@ -1,0 +1,56 @@
+*{outline:0}
+body{font-weight:300;font-family:Open Sans}
+.btn.btn-primary{background-color:#45BDDC;border-color:#30b5d8}
+.navbar-default.navbar-ii .navbar-brand{font-size:15px;color:#fff;border-right: 1px solid #1a81d4;background:rgba(255,255,255,0.07);}
+.navbar-default.navbar-ii{background: #2196f3;margin:0;}
+.navbar-default.navbar-ii .navbar-nav{}
+.navbar-default.navbar-ii .navbar-nav>li{}
+.navbar-default.navbar-ii .navbar-nav>li>a,.navbar-default.navbar-ii .navbar-nav>.open>a{color:#fff}
+.navbar-default.navbar-ii .navbar-nav>li>a:hover{background:rgba(0,0,0,0.14)}
+.navbar-default.navbar-ii .navbar-nav>li.open>a,.navbar-default.navbar-ii .navbar-nav>li.active>a{background: rgba(0, 0, 0, 0.21);}
+.navbar-default.navbar-ii .navbar-nav>li.active>a:hover{color:#fff}
+.navbar-default.navbar-ii .navbar-nav>li>.dropdown-menu{font-size:12px;border-radius:0;border-color:#ddd;border-top:0;box-shadow:0 0}
+#secondary-nav{padding:10px 20px;background:#f5f5f5}
+#secondary-nav .btn,#secondary-nav .form-control{height:30px;padding:0 10px;font-size:12px}
+#secondary-nav .form-control{width:300px;box-shadow:0 0}
+#secondary-nav:after,
+#contact-action-row:after{content:'';display:block;clear:both}
+#secondary-nav .navbar-form{margin:0;padding:0}
+#secondary-nav .pull-right.btn{line-height:30px}
+#secondary-nav .advanced-link{margin-left:10px;font-size:12px}
+#secondary-nav .dropdown-menu{font-size:12px;border-radius:0;border-color:#ddd;box-shadow:0 0}
+#contact-action-row{padding: 15px 20px;background:#dbeef3;font-size:12px;}
+#contact-action-row .dropdown-menu{font-size:12px;border-radius:0;border-color:#ddd;box-shadow:0 0}
+#contact-action-row .btn{font-size:12px;border-color:rgba(144,186,197,0.59)}
+#contact-action-row .col{float: left;padding-right: 40px;padding-top: 0;}
+#contact-action-row .col.ext-icons{
+    padding-top: 0;
+}
+#contact-action-row .col.ext-icons a{}
+#contact-action-row .col.ext-icons img{}
+#contact-action-row .col.col-filter-contact{}
+#contact-action-row .col.col-filter-contact .btn-default{width:190px;text-align:left}
+#contact-action-row .col.col-filter-contact .btn-default .caret{float:right;margin-top: 6px;}
+#contact-action-row .col.col-paginat{padding-right: 0;}
+#contact-action-row .col.col-paginat a.sync-contact{display:inline-block;margin:0 10px 0 7px;color:#333;font-size:14px}
+#contact-data{padding:20px 20px}
+#contact-data .form-control,#contact-data .btn{box-shadow:0 0;border-radius:0}
+#contact-data .contact-quick-action{text-align:center;width:74px;margin:auto}
+#contact-data .contact-quick-action a{display:inline-block;font-size:14px;color:#333;padding:0 3px}
+#contact-data table th{background-color:#fff}
+#contact-data table tr:hover .glyphicon-menu-hamburger{color:orange}
+#contact-data table tr:hover .glyphicon-pencil{color:#21c121}
+#contact-data table tr:hover .glyphicon-trash{color:red}
+#contact-data table td a.contact-icon{display: block;width: 22px;height: 22px;background-repeat: no-repeat;background-position: 50% 50%;background-size: 20px;float: right;opacity: 0.05;transition: all 0.4s;}
+#contact-data table tr:hover td a.contact-icon{opacity:1}
+#contact-data table td a.contact-icon.sms{background-image: url(../images/sms-36.png);}
+#contact-data table td a.contact-icon.email{background-image: url(../images/mail-36.png);}
+#contact-data table td a.contact-icon.call{background-image: url(../images/call-36.png);}
+#contact-data table td a.contact-icon.whatsapp{background-image: url(../images/whatsapp-36.png);}
+#contact-data table td span.person-fname{display: inline-block;padding-left: 3px;}
+
+.modal .modal-content{box-shadow:0 0 }
+.modal .modal-header{border:0}
+.modal .modal-footer{border:0}
+.modal .modal-sm *{text-align:center}
+.modal .modal-sm .modal-content strong{font-weight:300; font-size:24px}

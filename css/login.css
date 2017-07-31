@@ -1,0 +1,13 @@
+*{outline:0}
+body{background: #2196f3;font-weight:300;font-family:Open Sans;}
+#loginform{width:360px;text-align:center;margin:auto;position:absolute;left:50%;top:50%;margin:-260px 0 0 -220px}
+#loginform h1{font-weight:300;color:#fff;margin:0 0 30px}
+#loginform form{text-align:left;background:#fff;padding:20px 30px 30px;border-radius:3px;box-shadow:0 0 10px rgba(51,51,51,0.12)}
+#loginform .field{padding:10px 0}
+#loginform .field label{}
+#loginform select{width:100%;padding:10px;margin:20px 0}
+#loginform .field .form-control{}
+#loginform .field .form-control,#loginform select{border: 1px solid #d8d8d8;height:40px;box-shadow:0 0;border-radius:2px;background: #f8f8f8;}
+#loginform .forgot-link{color:#aaa;display: block;margin-bottom: 20px;}
+#loginform .login{width: 48%;height:40px;border:0;background:#333;}
+#loginform .btn-default{width: 46%;height:40px;border:0;padding-top: 10px;background:#eee;float: right;}
